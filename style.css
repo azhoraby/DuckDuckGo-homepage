@@ -1,0 +1,19 @@
+body{
+    display: grid;
+    grid-template-rows: 50px repeat(3, 100px);
+    grid-template-columns: repeat(3, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background: #f8f8f8;
+}
+header{
+    grid-column: 3;
+    display: grid;
+    grid-template-columns: 200px 50px 50px;
+
+}
+.homepage{
+    grid-template-columns: subgrid;
+    grid-row: 2;
+}
