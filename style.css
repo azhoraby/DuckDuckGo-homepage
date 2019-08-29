@@ -10,10 +10,24 @@ body{
 header{
     grid-column: 3;
     display: grid;
-    grid-template-columns: 200px 50px 50px;
-
+    grid-template-columns: 170px 50px 50px;
+    color: #888484;
+    padding-left: 20px;
+}.icono-hamburger, .icono-caretDown, .privacy-statement{
+    justify-self: center;
+    align-self: center;
 }
 .homepage{
-    grid-template-columns: subgrid;
-    grid-row: 2;
+    grid-row: 3;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}.ddg-logo{
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}.search-bar{
+    grid-column: 1/3;
+    background-color: aquamarine;
 }
